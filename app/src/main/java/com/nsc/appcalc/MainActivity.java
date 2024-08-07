@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(media >= 7 && numero_faltas <=10) {
                     txtResultado.setText("Aluno aprovado e sua \n " +
-                            "média é: " + media + "\n" +
+                            "média : " + media + "\n" +
                             " e o número de faltas é: " + numero_faltas);
                     txtResultado.setTextColor(getColor(R.color.green));
                 } else if (numero_faltas >20) {
