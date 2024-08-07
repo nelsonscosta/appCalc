@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     txtResultado.setText("aluno reprovado por faltas \n" +
                             " e sua média é: "+media);
                     txtResultado.setTextColor(getColor(R.color.red));
-                }else if(media < 8) {
+                }else if(media < 7) {
                     txtResultado.setText("Aluno reprovado por notas e sua \n" +
                             "média é "+media+ "\n" +
                             "mesmo tendo "+numero_faltas+" faltas");
