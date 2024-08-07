@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
                 if(media >= 7 && numero_faltas <=10) {
                     txtResultado.setText("Aluno aprovado e sua \n " +
-                            "média : " + media + "\n" +
+                            "média é: " + media + "\n" +
                             " e o número de faltas é: " + numero_faltas);
                     txtResultado.setTextColor(getColor(R.color.green));
                 } else if (numero_faltas >20) {
                     txtResultado.setText("aluno reprovado por faltas \n" +
-                            " e sua média é "+media);
+                            " e sua média é: "+media);
                     txtResultado.setTextColor(getColor(R.color.red));
-                }else if(media < 7) {
+                }else if(media < 8) {
                     txtResultado.setText("Aluno reprovado por notas e sua \n" +
                             "média é "+media+ "\n" +
                             "mesmo tendo "+numero_faltas+" faltas");
